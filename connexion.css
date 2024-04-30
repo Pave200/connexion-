@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#17f;
+}
+section{
+    background-color: #fff;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     width: 400px;
+     border-radius: 12px;
+     font-family: 'Times New Roman', Times, serif;
+}
+section h1{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin: 7px 0;
+    padding: 5px 5px;
+    outline: 0;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+form input[type='submit']{
+    background-color: #17f;
+    border: 0;
+    color: #fff;
+    margin-top: 15px;
+    padding: 6px 0;
+}
+.erreur{
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+ 
+}
+.message {
+    color: #fff;
+    font-size: 3.2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
